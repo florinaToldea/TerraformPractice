@@ -3,7 +3,7 @@ name: workflow overview
 on:
   workflow_dispatch:
   push:
-    - branches:
+    branches:
       - main
   
 jobs:
